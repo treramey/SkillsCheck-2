@@ -26,3 +26,4 @@ app.get("/api/inventory", c.getInventory); //checked
 app.get("/api/inventory/:id", c.getOneInventory); //checked
 app.post("/api/inventory", c.addInventory); //checked
 app.delete("/api/inventory/:id", c.delete); //checked
+// app.put("/api/inventory/:id", c.updateInventory); // Not working yet
